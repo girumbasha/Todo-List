@@ -1,0 +1,224 @@
+.heading__title {
+    color: white;
+    margin-left: 30px;
+    margin-top: 100px;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+body {
+  background-image: url(./data.jpg);
+ 
+}
+.first__paragraph{ 
+    color: aliceblue;
+  
+    margin-left: 30px;
+    font-weight: 100;
+    width: 50%;
+
+}
+.first__btn {
+    background: rgb(60, 194, 60);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 150px;
+    height: 37px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.first__btn:hover{
+    transition: 1s;
+    background: rgb(39, 129, 39);
+   
+}
+/* Service */
+  .service__container {
+    display: flex;
+     gap: 1em;
+     margin-left: 20px;
+  
+      margin-top: 50px;
+  }
+.service1 {
+    color: aliceblue;
+    width: 300px;
+    background: rgb(10, 29, 68);
+   
+}
+.service2 {
+    color: aliceblue;
+    width: 300px;
+    background: rgb(10, 29, 68);
+   
+}
+.service3 {
+    color: aliceblue;
+    width: 300px;
+    background: rgb(10, 29, 68);
+   
+}
+.service_title {
+    font-weight: 250;
+}
+.service__description {
+    color: white;
+    font-weight: 100;
+    margin-left:20px ;
+    width: 90%;
+    
+}
+/* Service List */
+.service__list_container {
+   margin-top: 30px;
+    background: rgb(4, 4, 46);
+
+}
+.service__list1 {
+    width: 33%;
+}
+.service__list2 {
+    width: 33%;
+}
+.service__list3 {
+    width: 33%;
+ 
+}
+.service__icons {
+    font-size: 35px;
+    color:rgb(63, 228, 8); 
+    
+    margin: 5px;
+    margin-left: 65px;
+}
+.service__list_title {
+    color:rgb(63, 228, 8); 
+    
+    font-weight: 250;
+    margin-left: 35px;
+}
+.service__list_paragraph {
+     color:rgb(63, 228, 8); 
+   
+    font-weight: 150;
+    font-size: 16;
+    margin-left: 35px;
+    
+
+}
+.service__list_ul   {
+    list-style: none;
+
+}
+.service__lists {
+    color:rgb(63, 228, 8);
+   
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: 250;
+    text-transform: uppercase;
+}
+.service__list_container {
+    display: flex;
+    gap: 1em;
+    
+}
+/* End of serviceList */
+
+
+
+
+
+/* Super AI */
+
+
+.super__ai{
+    background-image: url('./ai.png');
+    width: 100%;
+    opacity: 0.5;
+  margin-top: -36px;
+  
+    height: 500px;
+  
+}
+.super__ai_title{
+    color: rgb(92, 203, 247);
+    font-size: 36px;
+    padding-top: 140px;
+  
+    text-transform:uppercase;
+    margin-left: 140px;
+   
+}
+
+.super__ai_paragraph-container {
+    width: 60%;
+
+}
+.title_ai {
+    color: white;
+    margin-left: 140px;
+}
+.copyright{
+    color: aliceblue;
+}
+@media screen and (max-width: 768px) {
+    .service__container{
+        display: column; 
+    }
+    .service__container {
+       flex-direction: column;
+         /* Adjust the number of columns as needed */
+       
+   
+      }
+      .service1 {
+       
+        width: 100%;
+       
+       
+    }
+    .service2 {
+       
+        width: 100%;
+     
+       
+    }
+    .service3 {
+      
+        width: 100%;
+   
+       
+    }
+    .service__list_container{
+         flex-direction: column;
+    }
+    .service__list1 {
+        width: 100%;
+    }
+    .service__list2 {
+        width: 100%;
+    }
+    .service__list3 {
+        width: 100%;
+     
+    }
+   .service__list_container{
+    margin-left: 10px;
+    background: none;
+   }
+   
+.super__ai_paragraph-container {
+    width: 100%;
+
+}
+.title_ai {
+    color: white;
+    margin-left: 90px;
+}
+.first__paragraph{
+    width: 100%;
+    font-size: 18px;
+}
+}
